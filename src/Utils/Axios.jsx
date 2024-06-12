@@ -1,7 +1,7 @@
 import axios from "axios";
 
-export const baseUrl = 'https://blinkit-backend-lsqu.onrender.com/'
-// export const baseUrl = 'http://localhost:3000'
+// export const baseUrl = 'https://blinkit-backend-lsqu.onrender.com/'
+export const baseUrl = 'http://localhost:3000'
 export const Axios = axios.create({
     baseURL:baseUrl,
     withCredentials: true,

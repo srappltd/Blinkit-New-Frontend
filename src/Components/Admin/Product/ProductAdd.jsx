@@ -61,6 +61,7 @@ const ProductAdd = () => {
       Object.entries(productForm).forEach(([key, value]) => {
         formData.append(key, value);
       });
+      console.log(formData)
       dispatch(asyncProductAdd(formData))
       navigate("/admin/products")
     }else{

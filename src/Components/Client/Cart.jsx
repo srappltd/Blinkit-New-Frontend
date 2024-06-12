@@ -73,7 +73,7 @@ const Cart = () => {
                     if (data.success && data.verifyPayment) {
                         toast(data.message)
                         toast.done(tostId)
-                        // navigate("/account/my-orders")
+                        navigate("/account/my-orders")
                     }
                 },
                 prefill: {
